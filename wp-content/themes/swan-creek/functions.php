@@ -10,8 +10,9 @@ endif;
 function register_my_menus() {
   register_nav_menus(
     array(
-      'mainmenu' => __( 'Main Menu' )
+      'mainmenu' => __( 'Main Menu' ),
       'topmenu' => __( 'Top Menu' )
+
     )
   );
 }

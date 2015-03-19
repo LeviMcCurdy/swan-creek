@@ -47,7 +47,9 @@ textarea {
 
 body {
   font-size: 1em;
-  line-height: 1.4; }
+  line-height: 1.4; 
+  background-color: #f8f5dc;
+}
 
 ::-moz-selection {
   background: #d92e3a;
@@ -90,7 +92,7 @@ textarea {
 // LAYOUT
 /////////////////////////////////////////////////*/
 .wrap {
-  max-width: 1280px;
+  max-width: 960px;
   width: 92%;
   margin: 0px auto;
   position: relative; }
@@ -410,15 +412,14 @@ textarea {
 
 
 header[role=banner] {
-	border-top: 12px solid #000;
-	background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/texture.jpg');
-	background-repeat: repeat-x;
-	padding-top: 20px;
-	padding-bottom: 20px;
-   }
+  border-top: 12px solid #000;
+  background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/texture.jpg');
+  background-repeat: repeat-x;
+  padding-top: 32px;
+  margin-bottom: -30px;
+}
 
-nav[role=navigation] {
-   }
+
 
 
 img.houzz {
@@ -427,6 +428,9 @@ img.houzz {
   padding-right: 5px;
 }
 
+.container-social {
+  text-align: right;
+}
 
 .social-icons {
   background-color: #174576;
@@ -434,6 +438,8 @@ img.houzz {
   border-radius: 0px 0px 15px 15px;
   color: #fff;
   text-align: center;
+  width: 300px;
+  float: right;
 }
 
 .social-icons i {
@@ -445,6 +451,220 @@ img.houzz {
 .topper {
   top: -32px;
 }
+
+nav.topnav {
+  padding-top: 10px;
+  text-align: right;
+}
+
+.topnav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #231f20;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Quattrocento Sans', sans-serif;
+    border-right: 2px solid;
+}
+
+.topnav a:last-of-type {
+	border-right: none;
+}
+
+a.phone-number {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-div-main {
+  background-color: #ebe4a0;
+  text-align: right;
+  border-top: 3px solid #fff;
+}
+
+.nav-div-main ul li {
+  display: inline-block;
+}
+
+.nav-div-main ul li ul {
+  display: none;
+}
+
+
+.nav-div-main a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  text-decoration: none;
+   font-family: 'Quattrocento Sans', sans-serif;
+   color: #231f20;
+}
+
+.logo-img {
+  position: absolute;
+  z-index: 10;
+  margin-left: 30px;
+}
+
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 5;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+  .container-main {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+p {
+     font-family: 'Quattrocento Sans', sans-serif;
+   color: #231f20;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.home-left-cta {
+  background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/left-cta.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  padding-right: 10px;
+  margin-top: 30px;
+  margin-right: 9.25px !important;
+  margin-left: 9.25px !important;
+  width: 48%;
+}
+
+.home-left-cta p {
+  color: #61615d;
+  font-size: 16px;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-left: 129px;
+}
+
+.home-left-cta p span {
+  display: block;
+  font-weight: 700;
+}
+
+
+
+.home-right-cta {
+  background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/right-cta.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 140px;
+  text-align: center;
+  padding-right: 10px;
+  margin-top: 30px;
+  margin-right: 9.25px !important;
+  margin-left: 9.25px !important;
+  width: 48%;
+}
+
+.home-right-cta p {
+  color: #61615d;
+  font-size: 16px;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.home-right-cta p span {
+  color: #61615d;
+  font-size: 16px;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+.border-bottom {
+  border-bottom: 2px solid #cecece;
+  clear: both;
+  padding-top: 10px;
+}
+
+.grid-25 h3 {
+  text-align: center;
+  color: #fff;
+  padding-top: 60px;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.landscape {
+background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/landscape.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.hardscape {
+background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/hardscape.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.maintenance {
+background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/maintenance.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.videos {
+background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/videos.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 
 
 /*! Footer

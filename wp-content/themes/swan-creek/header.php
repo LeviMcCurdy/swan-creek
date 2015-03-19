@@ -15,6 +15,7 @@
     </title>
     <meta name="viewport" content="width=device-width">
     <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/normalize.min.css">
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
@@ -35,18 +36,54 @@
     
     <header role="banner">
     
-        <div class="wrap topper">
+        <div class="wrap topper group">
 
-            <div class="grid-4">
-            
+            <div class="grid-3">
+            <img src="http://localhost:8888/swan-creek/wp-content/uploads/2015/03/swanlogo.png" class="logo-img">
             </div>
 
-            <div class="grid-2">
-            
+            <div class="grid-3">
+
+            <div class="container-social">
             <div class="social-icons"><i class="fa fa-google-plus"></i> <i class="fa fa-flickr"></i> <img src="http://localhost:8888/swan-creek/wp-content/uploads/2015/03/houzz.png" class="houzz"> <i class="fa fa-youtube-play"></i> <i class="fa fa-twitter"></i> <i class="fa fa-pinterest-p"></i> <i class="fa fa-instagram"></i> <i class="fa fa-facebook-official"></i> </div>
+            </div>
+            <div class="group"></div>
+                <nav class="topnav">
+        
+                <!-- menu with list elements -->
+                <?php /* wp_nav_menu( array( 'theme_location' => 'mainmenu' ) ); */ ?>
+                
+                <!-- menu without list elements -->
+                <?php $defaults = array( 
+                'theme_location' => 'topmenu',
+                'container'       => 'nav', 
+                'container_class' => 'nav', 
+                'echo'            => false,
+                'fallback_cb'     => false,
+                'items_wrap'      => '%3$s',
+                'depth'           => 0
+                ); 
+                echo strip_tags(wp_nav_menu( $defaults ), '<a>');?>
+
+                <a href="#" class="phone-number">410.378.8668</a>
+            
+            </nav>
+            
 
             </div>
 
         </div>
+
+
+       
     
     </header>
+     <div class="nav-div-main">
+        <div class="wrap">
+        
+<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' ) ); ?>
+
+            </div>
+        </div>
+
+
