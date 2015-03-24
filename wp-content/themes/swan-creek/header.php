@@ -45,7 +45,16 @@
             <div class="grid-3">
 
             <div class="container-social">
-            <div class="social-icons"><i class="fa fa-google-plus"></i> <i class="fa fa-flickr"></i> <img src="http://localhost:8888/swan-creek/wp-content/uploads/2015/03/houzz.png" class="houzz"> <i class="fa fa-youtube-play"></i> <i class="fa fa-twitter"></i> <i class="fa fa-pinterest-p"></i> <i class="fa fa-instagram"></i> <i class="fa fa-facebook-official"></i> </div>
+            <div class="social-icons">
+           <a href="https://plus.google.com/+SwanCreekLandscapingPerryville/posts" target="_blank"><i class="fa fa-google-plus"></i> </a>
+           <a href="https://www.flickr.com/photos/120006425@N06/" target="_blank"><i class="fa fa-flickr"></i></a> 
+           <a href="http://www.houzz.com/pro/swancreeklandscaping/swan-creek-landscaping" target="_blank"><img src="http://localhost:8888/swan-creek/wp-content/uploads/2015/03/houzz.png" class="houzz"> </a>
+           <a href="https://www.youtube.com/channel/UCtrD1bz5WFEGrLmSyI-LS9Q/videos" target="_blank"><i class="fa fa-youtube-play"></i> </a>
+           <a href="https://twitter.com/swancreekland" target="_blank"><i class="fa fa-twitter"></i> </a>
+           <a href="https://www.pinterest.com/swancreekland/" target="_blank"><i class="fa fa-pinterest-p"></i> </a>
+           <a href="https://instagram.com/swancreeklandscaping/" target="_blank"><i class="fa fa-instagram"></i> </a>
+           <a href="https://www.facebook.com/SCLandscaping" target="_blank"><i class="fa fa-facebook-official"></i> </a>
+            </div>
             </div>
             <div class="group"></div>
                 <nav class="topnav">
@@ -66,6 +75,7 @@
                 echo strip_tags(wp_nav_menu( $defaults ), '<a>');?>
 
                 <a href="#" class="phone-number">410.378.8668</a>
+                <p class="mobile-menu-button"><a href="#">MENU</a></p>
             
             </nav>
             
@@ -82,6 +92,7 @@
         <div class="wrap">
         
 <?php wp_nav_menu( array( 'theme_location' => 'mainmenu' ) ); ?>
+
 
             </div>
         </div>
