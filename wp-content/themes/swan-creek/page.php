@@ -20,12 +20,47 @@ if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned
   <?php the_content(); ?>
 <?php endwhile; wp_reset_query(); ?>
 
-<?php 
-if is_page( 42 ); { ?>
-	Hello world
 
-<?php }
-?>
+<!-- ///// CODE FOR THE STAFF PAGE ///// -->
+<?php if ( is_page(26) ) { ?>
+			
+<?php if( have_rows('staff') ): ?>
+
+	<div class="staff-members group">
+
+	<?php while( have_rows('staff') ): the_row(); 
+
+		// vars
+		$image = get_sub_field('staff_member_image');
+		$name = get_sub_field('staff_member_name');
+		$position = get_sub_field('staff_member_position');
+
+		?>
+
+		<div class="grid-half">
+
+			
+
+				<img src="<?php echo $image ?>" class="staff-image" alt="<?php echo $image['alt'] ?>" />
+
+			
+
+		   <p class="staff-name"> <?php echo $name; ?></p>
+		   <p class="staff-position"><?php echo $position; ?></p>
+
+
+		</div>
+
+	<?php endwhile; ?>
+
+	</div>
+
+<?php endif; ?>
+
+
+
+
+		<?php } ?>
 
 </div>
 
