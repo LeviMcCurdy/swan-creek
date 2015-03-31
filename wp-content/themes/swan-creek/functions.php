@@ -53,6 +53,10 @@ add_action('init', 'my_init_method');
 
 
 
+
+
+
+
 /*
 Remove the automatic p tag - I would advise not disabling this; makes it easier on the client to update.
 */

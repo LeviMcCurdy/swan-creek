@@ -69,7 +69,7 @@
 
 <div class="wrap container-main group">
 
-<div class="grid-25 landscape">
+<div class="grid-25 landscape-home">
 <a href="<?php the_field('1_4_cta_link'); ?>">
 <h3><?php the_field('1_4_cta_title'); ?></h3></a>
 </div>

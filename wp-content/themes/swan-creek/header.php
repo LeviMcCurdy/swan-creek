@@ -21,6 +21,8 @@
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
 
 
+
+
     
     <!--[if lt IE 9]>
     <script src="<?php bloginfo('template_url'); ?>/js/html5-3.6-respond-1.1.0.min.js"></script>
@@ -39,21 +41,21 @@
         <div class="wrap topper group">
 
             <div class="grid-3">
-            <img src="http://localhost:8888/swan-creek/wp-content/uploads/2015/03/swanlogo.png" class="logo-img">
+            <a href="index.php"><img src="http://localhost:8888/swan-creek/wp-content/uploads/2015/03/swanlogo.png" class="logo-img"></a>
             </div>
 
             <div class="grid-3">
 
             <div class="container-social">
             <div class="social-icons">
-           <a href="https://plus.google.com/+SwanCreekLandscapingPerryville/posts" target="_blank"><i class="fa fa-google-plus"></i> </a>
-           <a href="https://www.flickr.com/photos/120006425@N06/" target="_blank"><i class="fa fa-flickr"></i></a> 
-           <a href="http://www.houzz.com/pro/swancreeklandscaping/swan-creek-landscaping" target="_blank"><img src="http://localhost:8888/swan-creek/wp-content/uploads/2015/03/houzz.png" class="houzz"> </a>
-           <a href="https://www.youtube.com/channel/UCtrD1bz5WFEGrLmSyI-LS9Q/videos" target="_blank"><i class="fa fa-youtube-play"></i> </a>
-           <a href="https://twitter.com/swancreekland" target="_blank"><i class="fa fa-twitter"></i> </a>
-           <a href="https://www.pinterest.com/swancreekland/" target="_blank"><i class="fa fa-pinterest-p"></i> </a>
-           <a href="https://instagram.com/swancreeklandscaping/" target="_blank"><i class="fa fa-instagram"></i> </a>
-           <a href="https://www.facebook.com/SCLandscaping" target="_blank"><i class="fa fa-facebook-official"></i> </a>
+           <a href="https://plus.google.com/+SwanCreekLandscapingPerryville/posts" target="_blank"><i class="fa fa-google-plus"></i></a><!--
+           --><a href="https://www.flickr.com/photos/120006425@N06/" target="_blank"><i class="fa fa-flickr"></i></a><!-- 
+           --><a href="http://www.houzz.com/pro/swancreeklandscaping/swan-creek-landscaping" target="_blank"><img src="http://localhost:8888/swan-creek/wp-content/uploads/2015/03/houzz.png" class="houzz"></a><!--
+           --><a href="https://www.youtube.com/channel/UCtrD1bz5WFEGrLmSyI-LS9Q/videos" target="_blank"><i class="fa fa-youtube-play"></i></a><!--
+           --><a href="https://twitter.com/swancreekland" target="_blank"><i class="fa fa-twitter"></i></a><!--
+           --><a href="https://www.pinterest.com/swancreekland/" target="_blank"><i class="fa fa-pinterest-p"></i></a><!--
+           --><a href="https://instagram.com/swancreeklandscaping/" target="_blank"><i class="fa fa-instagram"></i></a><!--
+           --><a href="https://www.facebook.com/SCLandscaping" target="_blank"><i class="fa fa-facebook-official"></i></a>
             </div>
             </div>
             <div class="group"></div>
