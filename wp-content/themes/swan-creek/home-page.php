@@ -10,7 +10,6 @@
 ?>
 <?php get_header(); ?>
 
-
 <div class="wrap">
 <div class="container-main group">
 
@@ -40,8 +39,9 @@
 
 
 <div class="home-content">
-<h1 class="home-h1"><?php the_field('h1_home'); ?></h1> 
-<h2><?php the_field('h2_home'); ?></h2>
+<!--
+<h1 class="home-h1"><?php //the_field('h1_home'); ?></h1> 
+<h2><?php //the_field('h2_home'); ?></h2>-->
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
   <?php the_content(); ?>
@@ -52,13 +52,17 @@
 
 
 <a href="<?php the_field('left_cta_home'); ?>"><div class="grid-half home-left-cta">
-<p>We're Different. Find Out Why. <span>"The Swan Creek Process"</span></p>
+
 </div></a>
 
 
 <a href="<?php the_field('right_cta_home'); ?>"><div class="grid-half home-right-cta">
-<p>5 Critical <span>Questions to ask your landscape contractor.</span></p>
+
 </div></a>
+
+
+
+
 
 <div class="border-bottom"></div>
 

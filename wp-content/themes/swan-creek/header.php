@@ -41,7 +41,7 @@
         <div class="wrap topper group">
 
             <div class="grid-3">
-            <a href="index.php"><img src="http://localhost:8888/swan-creek/wp-content/uploads/2015/03/swanlogo.png" class="logo-img"></a>
+            <a href="http://a37.348.myftpupload.com"><img src="http://a37.348.myftpupload.com/wp-content/uploads/2015/04/swanlogo-copy.jpg" class="logo-img"></a>
             </div>
 
             <div class="grid-3">
@@ -50,7 +50,7 @@
             <div class="social-icons">
            <a href="https://plus.google.com/+SwanCreekLandscapingPerryville/posts" target="_blank"><i class="fa fa-google-plus"></i></a><!--
            --><a href="https://www.flickr.com/photos/120006425@N06/" target="_blank"><i class="fa fa-flickr"></i></a><!-- 
-           --><a href="http://www.houzz.com/pro/swancreeklandscaping/swan-creek-landscaping" target="_blank"><img src="http://localhost:8888/swan-creek/wp-content/uploads/2015/03/houzz.png" class="houzz"></a><!--
+           --><a href="http://www.houzz.com/pro/swancreeklandscaping/swan-creek-landscaping" target="_blank"><img src="http://a37.348.myftpupload.com/wp-content/uploads/2015/03/houzz.png" class="houzz"></a><!--
            --><a href="https://www.youtube.com/channel/UCtrD1bz5WFEGrLmSyI-LS9Q/videos" target="_blank"><i class="fa fa-youtube-play"></i></a><!--
            --><a href="https://twitter.com/swancreekland" target="_blank"><i class="fa fa-twitter"></i></a><!--
            --><a href="https://www.pinterest.com/swancreekland/" target="_blank"><i class="fa fa-pinterest-p"></i></a><!--
@@ -77,7 +77,31 @@
                 echo strip_tags(wp_nav_menu( $defaults ), '<a>');?>
 
                 <a href="#" class="phone-number">410.378.8668</a>
-                <p class="mobile-menu-button"><a href="#">MENU</a></p>
+                
+
+
+<div class="mobile-nav">
+                
+                <div class="mobile__button">
+                    <p class="mobile-menu-button"><a href="#">MENU</a></p>
+                </div>
+    
+                <nav class="mobile__nav" style="display:none;">
+                    <?php $defaults = array( 
+                    'theme_location' => 'mainmenu',
+                    'container'       => 'nav', 
+                    'container_class' => 'nav', 
+                    'echo'            => false,
+                    'fallback_cb'     => false,
+                    'items_wrap'      => '%3$s',
+                    'depth'           => 0
+                    ); 
+                    echo strip_tags(wp_nav_menu( $defaults ), '<a>');?>
+                </nav>
+            </div>
+
+
+                
             
             </nav>
             

@@ -411,12 +411,12 @@ textarea {
 //////////////////////////////////////////////*/
 
 
-header[role=banner] {
-  border-top: 12px solid #000;
-  background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/texture.jpg');
-  background-repeat: repeat-x;
-  padding-top: 32px;
-  margin-bottom: -30px;
+header[role="banner"] {
+    border-top: 12px solid #000;
+    background-image: url("http://a37.348.myftpupload.com/wp-content/uploads/2015/03/texture.jpg");
+    background-repeat: repeat-x;
+    padding-top: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -436,16 +436,17 @@ img.houzz {
   background-color: #174576;
   padding: 5px;
   border-radius: 0px 0px 15px 15px;
-  color: #fff;
+  color: #FFF;
   text-align: center;
-  width: 300px;
+  width: 400px;
   float: right;
+  margin-top: 32px;
 }
 
 .social-icons i {
   font-size: 23px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .topper {
@@ -453,8 +454,9 @@ img.houzz {
 }
 
 nav.topnav {
-  padding-top: 10px;
+  padding-top: 0px;
   text-align: right;
+  margin-bottom: -60px;
 }
 
 .topnav a {
@@ -481,6 +483,7 @@ a.phone-number {
   background-color: #ebe4a0;
   text-align: right;
   border-top: 3px solid #fff;
+  margin-top: -15px;
 }
 
 .nav-div-main ul li {
@@ -495,8 +498,8 @@ a.phone-number {
 .nav-div-main a {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   display: inline-block;
   text-decoration: none;
   font-family: 'Quattrocento Sans', sans-serif;
@@ -508,6 +511,12 @@ a.phone-number {
   position: absolute;
   z-index: 10;
   margin-left: 30px;
+  margin-top: 32px;
+  border-radius: 0px 0px 15px 15px;
+  width: 140px;
+  -webkit-box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.75);
 }
 
 
@@ -550,11 +559,11 @@ a.phone-number {
 }
 
 
-  .container-main {
+.container-main {
   padding-left: 10px;
   padding-right: 10px;
   background-color: #fff;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 
 p {
@@ -565,7 +574,8 @@ p {
 }
 
 h1 {
-      font-family: 'Cinzel', serif;
+   font-family: 'Quattrocento Sans', sans-serif;
+   font-weight: 700;
   color: #231f20;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -577,7 +587,8 @@ h1 {
 
 
 .home-h1 {
-    font-family: 'Cinzel', serif;
+   font-family: 'Quattrocento Sans', sans-serif;
+   font-weight: 700;
   color: #231f20;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -588,7 +599,8 @@ h1 {
 
 
 h2 {
-    font-family: 'Cinzel', serif;
+   font-family: 'Quattrocento Sans', sans-serif;
+   font-weight: 700;
   color: #231f20;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -610,17 +622,18 @@ h2 {
 }
 
 .home-left-cta {
-  background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/left-cta.jpg');
+  background-image: url('http://a37.348.myftpupload.com/wp-content/uploads/2015/04/swan-creek-cta1.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 68px;
   text-align: center;
   padding-right: 10px;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-right: 9.25px !important;
   margin-left: 9.25px !important;
   width: 48%;
+    margin-bottom: 3px !important;
 }
 
 .home-left-cta p {
@@ -640,18 +653,19 @@ h2 {
 
 
 .home-right-cta {
-  background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/right-cta.jpg');
+  background-image: url('http://a37.348.myftpupload.com/wp-content/uploads/2015/04/swan-creek-cta2.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 140px;
+  padding-bottom: 68px;
+  padding-left: 150px;
   text-align: center;
   padding-right: 10px;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-right: 9.25px !important;
   margin-left: 9.25px !important;
   width: 48%;
+    margin-bottom: 3px !important;
 }
 
 .home-right-cta p {
@@ -674,7 +688,6 @@ h2 {
 .border-bottom {
   border-bottom: 2px solid #cecece;
   clear: both;
-  padding-top: 10px;
 }
 
 .grid-25 h3 {
@@ -689,28 +702,28 @@ h2 {
 }
 
 .landscape-home {
-background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/landscape.jpg');
+background-image: url('http://a37.348.myftpupload.com/wp-content/uploads/2015/03/landscape.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 
 .hardscape {
-background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/hardscape.jpg');
+background-image: url('http://a37.348.myftpupload.com/wp-content/uploads/2015/03/hardscape.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 
 .maintenance {
-background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/maintenance.jpg');
+background-image: url('http://a37.348.myftpupload.com/wp-content/uploads/2015/03/maintenance.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 
 .videos {
-background-image: url('http://localhost:8888/swan-creek/wp-content/uploads/2015/03/videos.jpg');
+background-image: url('http://a37.348.myftpupload.com/wp-content/uploads/2015/03/videos.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -722,10 +735,9 @@ a i {
 
 .home-content p {
   text-align: left;
-  max-width: 710px;
+  max-width: 780px;
   margin: 0 auto;
 }
-
 
 .grid-25 a {
   text-decoration: none;
@@ -759,7 +771,7 @@ ul.sub-menu li {
   text-align: left;
   padding-left: 25px;
   margin-bottom: -15px;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .sub-page h3 {
@@ -770,6 +782,15 @@ ul.sub-menu li {
   font-family: 'Cinzel', serif;
   font-size: 18px;
   color: #575052;
+}
+
+.inline span {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #706669;
 }
 
 
@@ -804,6 +825,12 @@ img.staff-image {
   width: 1.2em;
   margin-left: -1.2em;
   color: #174576;
+}
+
+.one {
+  -webkit-column-count: 1 !important;
+  -moz-column-count: 1 !important;
+  column-count: 1 !important;
 }
 
 .sub-page ul li {
@@ -847,12 +874,15 @@ a.dark {
 }
 
 .footer-social {
-  background-color: #ece292;
+  background-color: #ECE292;
+  margin-top: 0;
+  width: 100%;
+  margin-top: -20px;
 }
 
 .testimonial-con:nth-child(odd) {
-margin-bottom: 90px;
-  margin-top: 50px;
+margin-bottom: 30px;
+  margin-top: 0px;
   background: rgba(210,229,164,1);
 background: -moz-linear-gradient(top, rgba(210,229,164,1) 0%, rgba(255,255,255,0) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210,229,164,1)), color-stop(100%, rgba(255,255,255,0)));
@@ -865,8 +895,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2e5a4', end
 
 
 .testimonial-con:nth-child(even) {
-margin-bottom: 90px;
-  margin-top: 50px;
+margin-bottom: 30px;
+  margin-top: 0px;
 background: rgba(235,228,165,1);
 background: -moz-linear-gradient(top, rgba(235,228,165,1) 0%, rgba(255,255,255,0) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,228,165,1)), color-stop(100%, rgba(255,255,255,0)));
@@ -921,6 +951,29 @@ textarea {
   height: 150px;
 }
 
+ul#menu-menu-2 {
+  padding-left: 200px;
+  text-align: center;
+}
+
+
+.video_lightbox_anchor_image {
+  width: 155px;
+  height: auto;
+  margin-left: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.videos-two br {
+  display: none;
+}
+
+.videos-two {
+  clear: both;
+}
 
 /*! Footer
 //////////////////////////////////////////////*/
@@ -1053,12 +1106,12 @@ footer[role=contentinfo] {
 
 .home-left-cta {
   padding-top: 45px;
-  padding-bottom: 45px;
+  padding-bottom: 130px;
 }
 
 .home-right-cta {
   padding-top: 45px;
-  padding-bottom: 45px;
+  padding-bottom: 130px;
 }
 
 
@@ -1082,29 +1135,138 @@ footer[role=contentinfo] {
   display: none;
 }
 
-.mobile-menu-button {
+.mobile-menu-button, .mobile-nav {
   display: block;
+}
+
+nav.mobile__nav a {
+  display: block;
+  margin-bottom: 13px;
+  border: none;
+}
+
+
+.sub-page ul {
+  font-family: 'Quattrocento Sans', sans-serif;
+   color: #231f20;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 60px;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+        -webkit-column-width: 98%; /* Chrome, Safari, Opera */
+    column-width: 98%;
+}
+
+  .wrap {
+  width: 100% !important;
+}
+
+.grid-3 {
+  width: 100% !important;
+}
+.logo-img {
+  position: relative;
+  z-index: 10;
+  margin-left: 0px;
+}
+
+header {
+  text-align: center;
+}
+
+.social-icons {
+  padding: 5px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  float: none;
+  margin-top: 30px;
+}
+
+nav.topnav {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.home-left-cta p {
+  font-size: 25px;
+  padding: 0;
 }
 
 
 
+.home-right-cta p {
+  font-size: 25px;
+  padding: 0;
+}
+
+.home-right-cta p span {
+  font-size: 20px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 710px)  {
+.alignright {
+  float: none;
+  position: relative;
+  margin: 0 auto;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.alignleft {
+  float: none;
+  position: relative;
+  margin: 0 auto;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+
+div.wpcf7 img.ajax-loader {
+  border: none;
+  vertical-align: middle;
+  margin-left: 4px;
+  width: 40px;
+}
+
+img.staff-image {
+  width: 50% !important;
+}
 
 }
 
 @media only screen and (max-width: 650px)  {
 
-.home-right-cta {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
 .home-left-cta {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 45px;
+  padding-bottom: 80px;
 }
 
-.home-right-cta p {
-  padding-left: 70px;
+.home-right-cta {
+  padding-top: 45px;
+  padding-bottom: 80px;
 }
 
 
@@ -1114,6 +1276,44 @@ footer[role=contentinfo] {
 
 
 }
+
+
+@media only screen and (max-width: 640px)  {
+
+
+
+.grid-25, .grid-1 {
+  width: 98%;
+  margin-bottom: 20px;
+}
+
+
+.home-left-cta p {
+  font-size: 15px;
+  padding: 0;
+}
+.home-right-cta p {
+  font-size: 15px;
+  padding: 0;
+}
+
+.home-right-cta p span {
+  font-size: 15px;
+}
+
+.home-left-cta {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+
+.home-right-cta {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+
+
+}
+
 
 
 
